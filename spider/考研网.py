@@ -592,6 +592,8 @@ def getAll(province, universityName, isAllDay):
                             "," + str(other[i][0]) + "," + str(other[i][1]) + "\n")
 
 
+
+
 if __name__ == '__main__':
     province = input("请输入省份或城市：")
     isAllDay = input("全日制（1）非全日制（2）：")
